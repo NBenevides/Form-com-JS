@@ -49,7 +49,12 @@ function AddMotosArray(){
 
     // motos.unshift(moto); atras
     // motos.push(moto); frente
-    motos.push(moto);
-
+    motos.splice(2, 1, moto) //posição que quiser, excluir um
     console.log(motos);
+
+    let findMoto = motos.find(moto => moto.cor == "Azul");
+    console.log(findMoto);
+
+    let filterMoto = motos.filter(moto => moto.ano >= 2005);
+    console.log(filterMoto);
 }

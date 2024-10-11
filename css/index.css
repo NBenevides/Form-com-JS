@@ -1,0 +1,20 @@
+body{
+    background-image: url('/img/mf3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#form{
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    margin-top: 25vh;
+    color: white;
+}
+
+#fieldset{
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+    border-radius: 10px;
+}
